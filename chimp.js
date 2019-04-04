@@ -4,6 +4,20 @@ module.exports = {
   watchTags: '@watch',
   offline: false,
 
+  webdriverio: {
+    desiredCapabilities: {},
+    logLevel: 'silent',
+    // logOutput: null,
+    host: '127.0.0.1',
+    port: 4444,
+    path: '/wd/hub',
+    baseUrl: null,
+    coloredLogs: true,
+    screenshotPath: null,
+    waitforTimeout: 5000,
+    waitforInterval: 5000,
+  },
+
   // - - - - CUCUMBER - - - -
   path: './features',
 
