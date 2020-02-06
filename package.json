@@ -124,7 +124,7 @@
     "quibble": "^0.5.7",
     "shelljs": "^0.8.3",
     "testdouble": "^3.12.5",
-    "chromedriver": "^76.0.0"
+    "chromedriver": "^80.0.0"
   },
   "peerDependencies": {
     "chromedriver": "*"
