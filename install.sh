@@ -14,3 +14,4 @@ cd ./node_modules/xolvio-fiber-utils
 npm install fibers@^5.0.0 --save
 cd ../..
 
+sed -i 's/Os.tmpDir()/Os.tmpdir()/g' ./node_modules/hapi/lib/defaults.js

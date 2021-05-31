@@ -394,7 +394,7 @@ describe('Chimp', () => {
     });
 
     it('exposes the run and interrupt endpoints', () => {
-      const Hapi = require('@hapi/hapi');
+      const Hapi = require('hapi');
 
       const Chimp = require('../lib/chimp.js');
       const chimp = new Chimp({serverHost: 'localhost', serverPort: 1234});
@@ -415,7 +415,7 @@ describe('Chimp', () => {
     });
 
     it('returns cucumber results when run handler is called successfully', () => {
-      const Hapi = require('@hapi/hapi');
+      const Hapi = require('hapi');
       const Chimp = require('../lib/chimp.js');
       const chimp = new Chimp({serverHost: 'localhost', serverPort: 1234});
 
@@ -434,7 +434,7 @@ describe('Chimp', () => {
     });
 
     it('returns cucumber results when run handler is called successfully with a feature', () => {
-      const Hapi = require('@hapi/hapi');
+      const Hapi = require('hapi');
       const Chimp = require('../lib/chimp.js');
       const chimp = new Chimp({serverHost: 'localhost', serverPort: 1234});
       chimp.options._ = {};
@@ -455,7 +455,7 @@ describe('Chimp', () => {
     });
 
     it('returns "done" when interrupt handler is called successfully', () => {
-      const Hapi = require('@hapi/hapi');
+      const Hapi = require('hapi');
       const Chimp = require('../lib/chimp.js');
       const chimp = new Chimp({serverHost: 'localhost', serverPort: 1234});
 
@@ -473,7 +473,7 @@ describe('Chimp', () => {
     });
 
     it('returns cucumber results when runAll handler is called successfully', () => {
-      const Hapi = require('@hapi/hapi');
+      const Hapi = require('hapi');
       const Chimp = require('../lib/chimp.js');
       const chimp = new Chimp({serverHost: 'localhost', serverPort: 1234});
 
